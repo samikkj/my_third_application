@@ -31,10 +31,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          Container(
-            color: Colors.purple,
-            child: ListTile(
-              leading: CircleAvatar(
+          // Container(
+            // color: Colors.purple,
+            // child: ListTile(
+              // leading: CircleAvatar(
                 radius: 200,
                 backgroundColor: Colors.blueGrey,
                 child: Icon(Icons.person, size: 30, color: Colors.black12),
