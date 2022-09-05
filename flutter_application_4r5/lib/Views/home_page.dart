@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_4r5/main.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -34,10 +35,14 @@ class HomePage extends StatelessWidget {
           Container(
             color: Colors.purple,
             child: ListTile(
-              leading: CircleAvatar(
-                radius: 200,
-                backgroundColor: Colors.blueGrey,
-                child: Icon(Icons.person, size: 30, color: Colors.black12),
+              leading: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: CircleAvatar(
+                  radius: 200,
+                  backgroundColor: Colors.blueGrey,
+                  child:
+                      const Icon(Icons.person, size: 30, color: Colors.black12),
+                ),
               ),
             ),
           ),
